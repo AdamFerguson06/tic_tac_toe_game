@@ -16,17 +16,17 @@ cd tic_tac_toe
 
 2. Install tkinter if not already installed:
 
-# For Ubuntu/Debian
+### For Ubuntu/Debian
 ````
 sudo apt-get install python3-tk
 ````
 
-# For Fedora
+### For Fedora
 ```
 sudo dnf install python3-tkinter
 ```
 
-# For Windows or macOS, tkinter is included in Python 3.1 or later by default
+### For Windows or macOS, tkinter is included in Python 3.1 or later by default
 
 3. Run the frontend code to start the game:
 
@@ -39,4 +39,3 @@ A window should open with the Tic Tac Toe game board. Click on the grid cells to
 ## Components
 `tic_tac_toe.py`: Contains the backend code for the game logic, including the TicTacToe class with methods for making moves, checking for a winner, and managing the game state.
 `frontend_ui.py`: Contains the frontend code using tkinter for creating the game's GUI and handling user input.
-
